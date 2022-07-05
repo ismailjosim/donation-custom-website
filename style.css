@@ -1,0 +1,230 @@
+/*==============================
+        Global Styling
+==============================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.button {
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 90px auto;
+}
+
+.primary_heading {
+    font-size: 45px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    padding: 0px 300px 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+
+/*==============================
+    Header Section Styling
+==============================*/
+#section_hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(0deg, rgb(18, 18, 18), rgba(18, 18, 18, 0.10)), url(images/hero_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content_bx {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero_heading {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.hero_description {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 30px 200px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.button {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    background-color: #FF5959;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/*==============================
+    Donate Section Styling
+==============================*/
+#section_donate {
+    text-align: center;
+}
+
+.list_items {
+    display: flex;
+    justify-content: center;
+}
+
+.list_item {
+    background: #FAFAFA;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #FAFAFA;
+}
+
+.list_item.active {
+    border-color: #FF5959;
+}
+
+.list_item.active a {
+    color: #FF5959;
+}
+
+.item_link {
+    color: #707070;
+    font-weight: 600;
+
+}
+
+.input_box {
+    margin-top: 50px;
+
+}
+
+.input_box input {
+    width: 54%;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #B3B3B3;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.input_box input[placeholder] {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+/*==============================
+    Newsletter Section Styling
+==============================*/
+.email_temp {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+
+}
+
+.email_temp input {
+    font-family: inherit;
+    padding: 15px 150px 15px 15px;
+    border: none;
+    outline: none;
+    width: 60% 40%;
+}
+
+.email_temp input[type="email"] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.email_temp input[type="button"] {
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    background: #FF5959;
+    color: #fff;
+    padding: 10px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/*==============================
+    Plan Section Styling
+==============================*/
+#section_plan .row {
+    display: flex;
+
+}
+
+.plan_box {
+    margin-left: 20px;
+    background-color: #B3B3B3;
+    padding: 50px 15px;
+    border-radius: 5px;
+}
+
+.plan_box.one {
+    margin-left: 0;
+    background-color: rgba(79, 157, 166, 0.10);
+}
+
+.plan_box.two {
+    background-color: rgba(255, 89, 89, 0.10);
+}
+
+.plan_box.three {
+    background-color: #FFF4D6;
+}
+
+.box_heading {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #121212;
+    font-weight: 700;
+}
+
+.box_description {
+    margin-right: 30px;
+    line-height: 2;
+}
+
+.section_footer {
+    background: #121212;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer_logo {
+    margin-bottom: 10px;
+}
