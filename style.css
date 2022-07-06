@@ -139,49 +139,9 @@ li {
 }
 
 /*==============================
-    Newsletter Section Styling
-==============================*/
-.email_temp {
-    display: flex;
-    justify-content: center;
-    background-color: #FFF4D6;
-    width: 80%;
-    margin: 0 auto;
-    padding: 100px 0;
-
-
-}
-
-.email_temp input {
-    font-family: inherit;
-    padding: 15px 150px 15px 15px;
-    border: none;
-    outline: none;
-    width: 60% 40%;
-}
-
-.email_temp input[type="email"] {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-.email_temp input[type="button"] {
-    cursor: pointer;
-    font-family: inherit;
-    letter-spacing: 1.5px;
-    font-weight: 800;
-    background: #FF5959;
-    color: #fff;
-    padding: 10px 30px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-
-/*==============================
     Plan Section Styling
 ==============================*/
-#section_plan .row {
+#section_donate_plan .row {
     display: flex;
 
 }
@@ -218,6 +178,80 @@ li {
     margin-right: 30px;
     line-height: 2;
     text-align: justify;
+}
+
+/*==============================
+    Featured Section Styling
+==============================*/
+.featured_box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.featured_box .img_box {
+    width: 50%;
+}
+
+.featured_box .content_box {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.featured_box .left_margin {
+    padding-left: 30px;
+}
+
+.featured_box .img_box img {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 5px 2px #707070;
+    border-radius: 5px;
+
+}
+
+.btn_more {
+    display: inline-block;
+    margin-top: 20px;
+    color: #FF5959;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*==============================
+    Newsletter Section Styling
+==============================*/
+.email_temp {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.email_temp input {
+    font-family: inherit;
+    padding: 15px 150px 15px 15px;
+    border: none;
+    outline: none;
+    width: 60% 40%;
+}
+
+.email_temp input[type="email"] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.email_temp input[type="button"] {
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    background: #FF5959;
+    color: #fff;
+    padding: 10px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /*==============================
