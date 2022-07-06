@@ -25,7 +25,8 @@ li {
 
 .container {
     width: 1200px;
-    margin: 90px auto;
+    margin: 0 auto;
+    padding: 90px 0;
 }
 
 .primary_heading {
@@ -55,14 +56,14 @@ li {
 }
 
 .content_bx {
-    padding-top: 200px;
+    padding-top: 150px;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 .hero_heading {
     font-size: 65px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .hero_description {
@@ -120,9 +121,11 @@ li {
 .input_box {
     margin-top: 50px;
 
+
 }
 
 .input_box input {
+    justify-content: center;
     width: 54%;
     border: none;
     outline: none;
@@ -141,6 +144,7 @@ li {
 /*==============================
     Plan Section Styling
 ==============================*/
+
 #section_donate_plan .row {
     display: flex;
 
@@ -183,6 +187,7 @@ li {
 /*==============================
     Featured Section Styling
 ==============================*/
+
 .featured_box {
     display: flex;
     margin-bottom: 50px;
