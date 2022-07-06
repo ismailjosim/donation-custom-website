@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -115,13 +114,10 @@ li {
 .item_link {
     color: #707070;
     font-weight: 600;
-
 }
 
 .input_box {
     margin-top: 50px;
-
-
 }
 
 .input_box input {
@@ -144,7 +140,6 @@ li {
 /*==============================
     Plan Section Styling
 ==============================*/
-
 #section_donate_plan .row {
     display: flex;
 
